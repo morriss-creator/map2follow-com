@@ -25,6 +25,10 @@ h1{font-size:clamp(38px,6.4vw,76px);font-weight:700;max-width:15ch}
 h2{font-size:clamp(28px,4vw,44px);font-weight:700}
 h3{font-size:20px;font-weight:700;line-height:1.2}
 .lead{font-size:clamp(17px,2vw,20px);color:var(--mute);max-width:56ch;margin:18px 0 0}
+.price{margin:16px 0 0;font-size:clamp(17px,2vw,20px);color:var(--ink);max-width:56ch;font-weight:500}
+.price a{color:var(--teal);font-weight:600;text-decoration:none}
+.price a:hover{text-decoration:underline;color:var(--teal)}
+.price a:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 .hero{padding-block:36px 28px}
 .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
 .btn{font:600 16px var(--body);padding:13px 22px;border-radius:12px;border:2px solid var(--ink);background:transparent;color:var(--ink);text-decoration:none;cursor:pointer}
@@ -220,6 +224,7 @@ svg.old .pin .lab{font:400 10.5px var(--body);fill:#33423b;stroke:none}
   <div class="eyebrow">Your package</div>
   <h2>Build your upgrade</h2>
   <p class="lead">Choose what your map should do. We turn it into a quote that fits your park.</p>
+  <p class="price">Pricing is $299–$499 per park map, depending on size and special requests. <a href="#kontakt">Request a quote</a></p>
   <div class="cfg">
     <div class="opts" id="opts"></div>
     <aside class="sum" aria-live="polite"><h3>Your upgrade</h3><ul id="sumL"></ul><button class="btn" type="button" id="sumB">Add to request</button></aside>
@@ -241,6 +246,7 @@ svg.old .pin .lab{font:400 10.5px var(--body);fill:#33423b;stroke:none}
     <div>
       <h2>Show us your map. We will show you the upgrade.</h2>
       <p style="margin-top:14px">There is no obligation. Briefly describe what should be improved or redone, and send the request directly. It opens as an email draft, so you can attach your current map.</p>
+      <p style="margin-top:14px">Pricing is $299–$499 per park map, depending on size and special requests.</p>
       <p style="margin-top:14px"><strong>Email:</strong> map2follow@gmail.com<br><strong>Phone:</strong> +41 77 232 93 94</p>
     </div>
     <form id="f">
